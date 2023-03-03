@@ -18,7 +18,7 @@ public class Lab {
     public void throwCustomException() throws CustomException{
         int i = 1;
         if(i == 1){
-             throw new CustomException();
+            throw new CustomException();
         }else{
             System.out.println("Nothing");
         }
